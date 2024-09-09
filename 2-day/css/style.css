@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*---------------------------------------container classes start--------------------------------- */
+.container{
+    /* border: 1px solid blue; */
+    max-width:1320px;
+    margin: auto;
+}
+.container-fluid{
+    width:100%;
+    margin:100px                                                                     auto;
+    border: 1px solid  red;
+
+}
+/* -----------------------------------------container classes end----------------------------------------------------- */
+
+/* -----------------------------------------text classes start------------------------------------------------------------------------- */
+
+.t-white{
+    color:white;
+}
+.t-black{
+    color:black;
+}
+.t-center{
+    text-align:center;
+}
+.f-30{
+    font-size:30px;
+}
+ /* -----------------------------------------text classes end------------------------------------------------------------------------- */
+
+
+ /* -----------------------------------------flex classes start------------------------------------------------------------------------- */
+
+ .d-flex{
+    display:flex;
+ }
+
+ .justify-center{
+    justify-content: center !important;
+ }
+ .row{
+    display:flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width:100%;
+ }
+ /* -----------------------------------------flex classes end------------------------------------------------------------------------- */
+
+/* ------------------------------------------- border classes start------------------------------------------------------------------ */
+.shadow{
+    box-shadow:1px 1px 4px black;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.radius-20{
+    border-radius: 20px;
+}
+/* -----------------------------------------border classes end------------------------------------------------------------------------- */
+
+/* ------------------------------------------spacing classes start----------------------------------------------------------------------- */
+.px{
+    padding-left:10px;
+    padding-right:10px;
+}
+.p-10{
+    padding:10px;
+}
+.p-20{
+    padding:20px;
+}
+ /* -----------------------------------------spacing classes end------------------------------------------------------------------------- */
+
+
+ /* -----------------------------------------background classes start------------------------------------------------------------------------- */
+ .bg-gray{
+    background-color: gray;
+
+ }
+ .bg-lightgray{
+    background-color: gainsboro;
+ }
+
+ /* -----------------------------------------background classes end------------------------------------------------------------------------- */
+
+ /* -----------------------------------------height classes start------------------------------------------------------------------------- */
+.h-50{
+    height:50px;
+}
+.h-100{
+    height:100px;
+}
+.h-200{
+    height:200px;
+}
+.h-300{
+    height:300px;
+}
+.h-400{
+    height:400px;
+}
+/* -----------------------------------------height classes end------------------------------------------------------------------------- */
+
+/* -----------------------------------------border classes start------------------------------------------------------------------------- */
+.border-red{
+    border:1px solid red;
+}
+.border-green{
+    border:1px solid green;
+}
+.border-blue{
+    border:1px solid blue;
+
+}
+.border-orange{
+    border:1px solid orange;
+}
+.border-gray{
+    border:1px solid gray;
+}
+.border-black{
+    border:1px sollid black;
+}
+/* -----------------------------------------border classes end------------------------------------------------------------------------- */
