@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*    container class start */
+    .container{
+        border:1px solid green;
+        margin: auto;
+        max-width:1320px;
+    }
+    .container-fluid{
+        width: 100%;
+        /* margin:100px auto; */
+        border: 1px solid red;
+    
+    }
+
+/* conatiner class end */
+
+
+
+/* border class start */
+
+    .border-red{
+            border:1px solid red;
+    }
+    .border-green{
+        border:1px solid green;
+        }
+    .border-blue{
+        border: 1px solid blue;
+    }
+
+    /* border class end */
+
+    .bg-gray{
+        background-color: gray;
+    }
+    .bg-gain{
+        background-color: gainsboro;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.font{
+    font-size:30px;
+}
+.wd{
+    width: 100%;
+    
+
+}
+.f-c{
+    color: #0f0f0f;
+}
+.slick-dots li button:before {
+        width:60px;
+        height:60px;
+        color: black;
+}
+
+    /* height class start */
+        .h-200{
+                height: 200px;
+            }
+            .h-100{
+                height:100px;
+            }
+            .h-300{
+                height:300px;
+            }
+            .h-400{
+                height:400px;
+            }
+            .h-50{
+                height:50px;
+            }
+            .h-500{
+                height:500px;
+            }
+            .fit{
+                object-fit: cover;
+            }
+        /* height class end */
+
+
+/* padding class start */
+    .p-10{
+        padding:10px;
+    }
+    .p-20{
+        padding:20px;
+    }
+
+    /* padding section end */
+    .redius-10{
+        border-radius: 10px;
+    }
+    .shadow{
+        box-shadow:1px 1px 4px black;
+    }
+    .m-60{
+        margin:50px 0px 50px 0px;
+    }
+    .t-text{
+        text-align:center;
+    }
+    .slick-next:before {
+        content: '➡️';
+    }
+    .slick-next:before {
+    
+        font-size: 50px;
+        line-height: 1;
+        opacity: .100;
+        color: black;
+    }
